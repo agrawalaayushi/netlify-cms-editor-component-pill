@@ -14,7 +14,7 @@ Pills reperesent an attribute or inform users about the status of an object.
 Run the following command using [npm](https://www.npmjs.com/):
 
 ```bash
-npm install @gojek/netlify-cms-editor-component-pill --save
+npm install netlify-cms-editor-component-pill --save
 ```
 
 ---
