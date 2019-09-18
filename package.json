@@ -19,7 +19,9 @@
     "editor",
     "component",
     "widget",
-    "pill"
+    "pill",
+    "tag", 
+    "badge"
   ],
   "author": "Aayushi Agrawal aayushi.a@go-jek.com",
   "files": [
