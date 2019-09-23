@@ -57,8 +57,8 @@ const pill = {
       widget: "string",
       default: `hsla(293, 32%, 46%, 1)`
     }
-  ]
-  // pattern: if any,
+  ],
+  pattern: /^<div id="cmsEdtiorComponentPill">(.*)<\/div>/
 };
 
 export const NetlifyCmsEditorComponentPill = pill;

@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 const PillView = ({ pill, bgColor, borderColor, textColor }) => {
   return (
     <div
+    id="cmsEdtiorComponentPill"
       style={{
         backgroundColor: bgColor,
         border: `1px solid ${borderColor}`,
