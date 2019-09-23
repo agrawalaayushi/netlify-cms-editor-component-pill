@@ -1,7 +1,3 @@
----
-status: experimental
----
-
 # netlify-cms-editor-component-pill
 
 This package provide a Pill component for Netlify CMS editor widget ready to drop in your Netlify CMS projects.
