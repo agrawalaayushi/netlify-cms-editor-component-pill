@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://source.golabs.io/asphalt/netlify-cms-editor-component-pill.git"
+    "url": "https://github.com/agrawalaayushi/netlify-cms-editor-component-pill.git"
   },
   "license": "UNLICENSED",
   "keywords": [
@@ -32,6 +32,9 @@
     "@babel/core": "^7.6.0",
     "@babel/preset-env": "^7.6.0",
     "@babel/preset-react": "^7.0.0"
+  },
+  "peerDependencies": {
+    "gatsby-remark-pills": "1.0.0"
   },
   "dependencies": {}
 }
