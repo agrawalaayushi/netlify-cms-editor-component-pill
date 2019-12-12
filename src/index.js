@@ -30,10 +30,8 @@ const pill = {
     },
   ],
   // Pattern to identify a block as being an instance of this component
-  // Function to extract data elements from the regexp match
-
   pattern: /^{{< Pill text="(.*)" bgColor="(.*)" textColor="(.*)" borderColor="(.*)" >}}$/,
-  // The pattern is used to determine which parts of your content should be represented by the editor component, toBlock converts the matched content from raw Markdown/HTML to a data object,
+  // Function to extract data elements from the regexp match
   fromBlock: match =>
     match && {
       text: match[1],
@@ -41,7 +39,6 @@ const pill = {
       textColor: match[3],
       borderColor: match[4],
     },
-
   toBlock: function(obj) {
     return `{{< Pill text=\"${obj.text}\" bgColor=\"${obj.bgColor}\" textColor=\"${obj.textColor}\" borderColor=\"${obj.borderColor}\" >}}`
   },
