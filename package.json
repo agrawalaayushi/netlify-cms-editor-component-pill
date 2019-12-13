@@ -1,6 +1,6 @@
 {
   "name": "netlify-cms-editor-component-pill",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Pill component for Netlify CMS editor widget",
   "main": "dist/index.js",
   "scripts": {
@@ -32,8 +32,7 @@
     "@babel/preset-env": "^7.6.0",
     "@babel/preset-react": "^7.0.0"
   },
-  "peerDependencies": {
+  "dependencies": {
     "gatsby-remark-pills": "^1.0.4"
-  },
-  "dependencies": {}
+  }
 }
