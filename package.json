@@ -1,6 +1,6 @@
 {
   "name": "netlify-cms-editor-component-pill",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "Pill component for Netlify CMS editor widget",
   "main": "dist/index.js",
   "scripts": {
@@ -9,19 +9,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://source.golabs.io/asphalt/netlify-cms-editor-component-pill.git"
+    "url": "https://github.com/agrawalaayushi/netlify-cms-editor-component-pill.git"
   },
-  "license": "UNLICENSED",
+  "license": "MIT",
   "keywords": [
     "netlify",
-    "netlify-cms",
+    "netlify cms",
     "cms",
-    "editor",
-    "component",
-    "widget",
-    "pill"
+    "editor component",
+    "netlify cms widget",
+    "pill",
+    "tag",
+    "badge"
   ],
-  "author": "Aayushi Agrawal aayushi.a@go-jek.com",
+  "author": "Aayushi Agrawal aayushi.agrawal13@gmail.com",
   "files": [
     "dist/*"
   ],
@@ -31,8 +32,7 @@
     "@babel/preset-env": "^7.6.0",
     "@babel/preset-react": "^7.0.0"
   },
-  "peerDependencies": {
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+  "dependencies": {
+    "gatsby-remark-pills": "^1.0.4"
   }
 }
