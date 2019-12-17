@@ -8,26 +8,26 @@ const pill = {
     {
       name: "text",
       label: "Text",
-      widget: "string",
+      widget: "string"
     },
     {
       name: "bgColor",
       label: "Background Color",
       widget: "string",
-      default: `#F1E9F2`,
+      default: `#F1E9F2`
     },
     {
       label: "Text Color",
       name: "textColor",
       widget: "string",
-      default: `black`,
+      default: `black`
     },
     {
       label: "Border Color",
       name: "borderColor",
       widget: "string",
-      default: `#92509B`,
-    },
+      default: `#92509B`
+    }
   ],
   // Pattern to identify a block as being an instance of this component
   pattern: /^{{< Pill text="(.*)" bgColor="(.*)" textColor="(.*)" borderColor="(.*)" >}}$/,
@@ -37,7 +37,7 @@ const pill = {
       text: match[1],
       bgColor: match[2],
       textColor: match[3],
-      borderColor: match[4],
+      borderColor: match[4]
     },
   toBlock: function(obj) {
     return `{{< Pill text=\"${obj.text}\" bgColor=\"${obj.bgColor}\" textColor=\"${obj.textColor}\" borderColor=\"${obj.borderColor}\" >}}`
@@ -61,8 +61,8 @@ const pill = {
     >
       ${obj.text}
     </div>`
-  },
-};
+  }
+}
 
-export const NetlifyCmsEditorComponentPill = pill;
-export default pill;
+export const NetlifyCmsEditorComponentPill = pill
+export default pill
