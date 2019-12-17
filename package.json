@@ -13,16 +13,15 @@
   },
   "license": "MIT",
   "keywords": [
-    "netlify",
     "netlify cms",
-    "cms",
-    "editor component",
-    "netlify cms widget",
+    "editor",
+    "component",
+    "widget",
     "pill",
     "tag",
     "badge"
   ],
-  "author": "Aayushi Agrawal aayushi.agrawal13@gmail.com",
+  "author": "Aayushi Agrawal <aayushi.agrawal13@gmail.com>",
   "files": [
     "dist/*"
   ],
