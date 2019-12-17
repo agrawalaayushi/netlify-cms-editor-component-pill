@@ -1,7 +1,7 @@
 # netlify-cms-editor-component-pill
 
 This package provides a Pill component for [Netlify CMS](https://www.netlifycms.org/) editor widget ready to drop in your Netlify CMS projects.
-Pill displays a label which hold small amount of information. This plugin uses [gatsby-remark-pills](https://github.com/agrawalaayushi/gatsby-remark-pills) to power its pill shortcode transformations to corresponding html code.
+Pill displays a label which hold small amount of information. This plugin uses [gatsby-remark-pills](https://github.com/agrawalaayushi/gatsby-remark-pills) to power its pill shortcode transformations to its corresponding html code.
 
 ---
 
